@@ -8,6 +8,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace SimpleCrawler
 {
@@ -17,14 +19,14 @@ namespace SimpleCrawler
         private int count = 0;
         static void Main(string[] args)
         {
-            SimpleCrawler myCrawler = new SimpleCrawler();
-            string startUrl = "http://www.cnblogs.com/dstang2000/";
-            if (args.Length >= 1) startUrl = args[0];
-            myCrawler.urls.Add(startUrl, false);//加入初始页面
-            new Thread(myCrawler.Crawl).Start();
-            Console.WriteLine(SimpleCrawler.urls.ToString());
-
-            Console.ReadLine();
+            //SimpleCrawler myCrawler = new SimpleCrawler();
+            //string startUrl = "http://www.cnblogs.com/dstang2000/";
+            //if (args.Length >= 1) startUrl = args[0];
+            //myCrawler.urls.Add(startUrl, false);//加入初始页面
+            //new Thread(myCrawler.Crawl).Start();
+            //Console.WriteLine(myCrawler.urls.ToString());
+            //Console.ReadLine();
+            DeleteAuthor();
         }
 
         private void Crawl()
@@ -102,5 +104,27 @@ namespace SimpleCrawler
                 }
             }
         }
+
+        private static void DeleteAuthor()
+        {
+            using (MySqlConnection connection = GetConnection())
+            {
+                using (MySqlCommand cmd = new MySqlCommand
+                   ("delete from authors where Name= '莫言'", connection))
+                {
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+        private static MySqlConnection GetConnection()
+        {
+            MySqlConnection connection = new MySqlConnection(
+                "datasource=localhost;username=root;" +
+                "password=root;database=book;charset=utf8");
+            connection.Open();
+            return connection;
+        }
+
+
     }
 }
