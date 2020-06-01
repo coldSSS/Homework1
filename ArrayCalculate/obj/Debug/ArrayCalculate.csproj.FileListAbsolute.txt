@@ -1,6 +1,0 @@
-D:\cs\ArrayCalculate\bin\Debug\ArrayCalculate.exe.config
-D:\cs\ArrayCalculate\bin\Debug\ArrayCalculate.exe
-D:\cs\ArrayCalculate\bin\Debug\ArrayCalculate.pdb
-D:\cs\ArrayCalculate\obj\Debug\ArrayCalculate.exe
-D:\cs\ArrayCalculate\obj\Debug\ArrayCalculate.pdb
-D:\cs\ArrayCalculate\obj\Debug\ArrayCalculate.csprojAssemblyReference.cache

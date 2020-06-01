@@ -1,6 +1,0 @@
-D:\cs\AiMethod\bin\Debug\AiMethod.exe.config
-D:\cs\AiMethod\bin\Debug\AiMethod.exe
-D:\cs\AiMethod\bin\Debug\AiMethod.pdb
-D:\cs\AiMethod\obj\Debug\AiMethod.exe
-D:\cs\AiMethod\obj\Debug\AiMethod.pdb
-D:\cs\AiMethod\obj\Debug\AiMethod.csprojAssemblyReference.cache

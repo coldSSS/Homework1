@@ -1,9 +1,0 @@
-D:\cs\Classwork3_30\bin\Debug\Classwork3_30.exe.config
-D:\cs\Classwork3_30\bin\Debug\Classwork3_30.exe
-D:\cs\Classwork3_30\bin\Debug\Classwork3_30.pdb
-D:\cs\Classwork3_30\obj\Debug\Classwork3_30.csprojAssemblyReference.cache
-D:\cs\Classwork3_30\obj\Debug\Classwork3_30.Form1.resources
-D:\cs\Classwork3_30\obj\Debug\Classwork3_30.Properties.Resources.resources
-D:\cs\Classwork3_30\obj\Debug\Classwork3_30.csproj.GenerateResource.cache
-D:\cs\Classwork3_30\obj\Debug\Classwork3_30.exe
-D:\cs\Classwork3_30\obj\Debug\Classwork3_30.pdb

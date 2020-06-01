@@ -1,0 +1,6 @@
+D:\cs\Classwork3_2\bin\Debug\Classwork3_2.exe.config
+D:\cs\Classwork3_2\bin\Debug\Classwork3_2.exe
+D:\cs\Classwork3_2\bin\Debug\Classwork3_2.pdb
+D:\cs\Classwork3_2\obj\Debug\Classwork3_2.csprojAssemblyReference.cache
+D:\cs\Classwork3_2\obj\Debug\Classwork3_2.exe
+D:\cs\Classwork3_2\obj\Debug\Classwork3_2.pdb

@@ -1,6 +1,0 @@
-D:\cs\Homework2\bin\Debug\Homework2.exe.config
-D:\cs\Homework2\bin\Debug\Homework2.exe
-D:\cs\Homework2\bin\Debug\Homework2.pdb
-D:\cs\Homework2\obj\Debug\Homework2.csprojAssemblyReference.cache
-D:\cs\Homework2\obj\Debug\Homework2.exe
-D:\cs\Homework2\obj\Debug\Homework2.pdb

@@ -1,0 +1,6 @@
+D:\cs\ClassWork4_13\bin\Debug\ClassWork4_13.exe.config
+D:\cs\ClassWork4_13\bin\Debug\ClassWork4_13.exe
+D:\cs\ClassWork4_13\bin\Debug\ClassWork4_13.pdb
+D:\cs\ClassWork4_13\obj\Debug\ClassWork4_13.csprojAssemblyReference.cache
+D:\cs\ClassWork4_13\obj\Debug\ClassWork4_13.exe
+D:\cs\ClassWork4_13\obj\Debug\ClassWork4_13.pdb
