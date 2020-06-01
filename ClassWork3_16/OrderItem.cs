@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClassWork3_16
 {
-    class OrderItem
+    public class OrderItem
     {
         public int OrderItemId { get; set; }
         public string Product { get; set; }
         public double Price { get; set; }
         public int Number { get; set; }
-        public double OrderItemSum{get;}
+        public double OrderItemSum{ get; set; }
 
         public OrderItem(int OrderItemId, string Product, double Price, int Number) 
         {
@@ -21,6 +21,11 @@ namespace ClassWork3_16
             this.Price = Price;
             this.Number = Number;
             OrderItemSum = Number * Price;
+        }
+
+        public OrderItem() 
+        {
+
         }
         public override bool Equals(object obj)
         {

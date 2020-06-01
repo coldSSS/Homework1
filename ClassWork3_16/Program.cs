@@ -28,6 +28,8 @@ namespace ClassWork3_16
 
             testSevice.AddOrder(10, "Sender1", "Client1", list1);
             testSevice.AddOrder(11, "Sender1", "Client2", list2);
+            Console.WriteLine(testSevice.SearchOrderInOrderId(10).OrderId);
+           
 
             foreach (Order i in testSevice.SearchOrderInSenderName("Sender1")) 
             {
@@ -42,6 +44,8 @@ namespace ClassWork3_16
                 Console.WriteLine(i);
             }
 
+            testSevice.Export("orders.xml");
+            testSevice.Import("orders.xml");
             Console.ReadLine();
         }
     }

@@ -1,0 +1,6 @@
+D:\cs\ClassWork3_16\bin\Debug\ClassWork3_16.exe.config
+D:\cs\ClassWork3_16\bin\Debug\ClassWork3_16.exe
+D:\cs\ClassWork3_16\bin\Debug\ClassWork3_16.pdb
+D:\cs\ClassWork3_16\obj\Debug\ClassWork3_16.exe
+D:\cs\ClassWork3_16\obj\Debug\ClassWork3_16.pdb
+D:\cs\ClassWork3_16\obj\Debug\ClassWork3_16.csprojAssemblyReference.cache

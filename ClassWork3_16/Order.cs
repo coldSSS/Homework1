@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ClassWork3_16
 {
-    class Order
+    public class Order
     {
-        public int OrderId { get; }
-        public string SenderName { get; }
-        public string ClientName { get; }
-        public double OrderSum { get; }
+       public int OrderId { get; set; }
+        public string SenderName { get; set; }
+        public string ClientName { get; set; }
+        public double OrderSum { get; set; }
         public List<OrderItem> orderItemList;
 
         public Order(int OrderId, string SenderName, string ClientName, List<OrderItem> list) 
@@ -24,6 +24,11 @@ namespace ClassWork3_16
             {
                 OrderSum += i.OrderItemSum;
             }
+
+        }
+
+        public Order() 
+        {
 
         }
         public override bool Equals(object obj)
@@ -40,6 +45,17 @@ namespace ClassWork3_16
         public override string ToString()
         {
             return "OrderId: " + OrderId + "  SenderName: " + SenderName + "  ClientName: " + ClientName + "  OrderSum" + OrderSum;
+        }
+
+        public bool Exist(string productName) 
+        {
+            bool flag = false;
+            foreach (OrderItem i in orderItemList) 
+            {
+                flag = flag || (i.Product == productName);
+            }
+
+            return flag;
         }
     }
 }

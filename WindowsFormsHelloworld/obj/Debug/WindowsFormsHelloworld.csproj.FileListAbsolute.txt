@@ -1,0 +1,9 @@
+D:\cs\WindowsFormsHelloworld\bin\Debug\WindowsFormsHelloworld.exe.config
+D:\cs\WindowsFormsHelloworld\bin\Debug\WindowsFormsHelloworld.exe
+D:\cs\WindowsFormsHelloworld\bin\Debug\WindowsFormsHelloworld.pdb
+D:\cs\WindowsFormsHelloworld\obj\Debug\WindowsFormsHelloworld.csprojAssemblyReference.cache
+D:\cs\WindowsFormsHelloworld\obj\Debug\WindowsFormsHelloworld.Form1.resources
+D:\cs\WindowsFormsHelloworld\obj\Debug\WindowsFormsHelloworld.Properties.Resources.resources
+D:\cs\WindowsFormsHelloworld\obj\Debug\WindowsFormsHelloworld.csproj.GenerateResource.cache
+D:\cs\WindowsFormsHelloworld\obj\Debug\WindowsFormsHelloworld.exe
+D:\cs\WindowsFormsHelloworld\obj\Debug\WindowsFormsHelloworld.pdb
